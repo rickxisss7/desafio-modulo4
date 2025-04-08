@@ -58,3 +58,14 @@ p:hover{
 color: antiquewhite;
 
 }
+
+@media (max-width: 500px) {
+h2{
+font-size: 16px;
+}
+p {
+font-size: 13px;
+top: 30px;
+left: 50px;
+}
+}
