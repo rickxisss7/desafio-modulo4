@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
 background-color: rgb(156, 156, 156);
 overflow: hidden;
@@ -28,4 +31,30 @@ display: flex;
    padding-left: 100px;
     top: 150px;
  position: absolute;
+}
+
+nav a:hover {
+background-color: rgb(95, 94, 94);
+border-radius: 5px;
+transition-duration: 0.3s;
+}
+
+h2{
+position: fixed;
+font-family: "Faculty Glyphic", sans-serif;
+background-color: rgb(41, 41, 41);
+color: rgb(233, 233, 233);
+padding: 0 5px;
+}
+
+p{
+position: fixed;
+top: 43px;
+left: 75px;
+color: rgb(14, 14, 14);
+font-family: "Jost", sans-serif;
+}
+p:hover{
+color: antiquewhite;
+
 }
