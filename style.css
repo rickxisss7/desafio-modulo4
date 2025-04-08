@@ -40,15 +40,15 @@ transition-duration: 0.3s;
 }
 
 h2{
-position: fixed;
+text-align: left;
 font-family: "Faculty Glyphic", sans-serif;
-background-color: rgb(41, 41, 41);
 color: rgb(233, 233, 233);
-padding: 0 5px;
+padding: 0 0px;
 }
 
 p{
-position: fixed;
+position: absolute;
+text-align: left;
 top: 43px;
 left: 75px;
 color: rgb(14, 14, 14);
@@ -59,13 +59,14 @@ color: antiquewhite;
 
 }
 
+
 @media (max-width: 500px) {
 h2{
 font-size: 14px;
 }
 p {
 font-size: 12px;
-top: 28px;
-left: 45px;
+top: 18px;
+left: 43px;
 }
 }
