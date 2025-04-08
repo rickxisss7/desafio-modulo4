@@ -18,8 +18,8 @@ left: 234px;
 }
 
 .moldura {
-justify-content: center;
-justify-items: center;
+justify-content: right;
+justify-items: right;
 position: relative;
 display: flex;
 
