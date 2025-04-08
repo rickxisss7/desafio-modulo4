@@ -1,0 +1,30 @@
+body {
+background-color: rgb(156, 156, 156);
+}
+
+.moldura iframe {
+border: 1px solid black;
+width: 215px;
+height: 468px;
+border-radius: 30px;
+position: relative;
+top: 18px;
+left: 234px;
+
+}
+
+.moldura {
+justify-content: center;
+justify-items: center;
+position: relative;
+display: flex;
+
+}
+
+.button {
+    display: grid;
+    gap: 30px;
+   padding-left: 100px;
+    top: 150px;
+ position: absolute;
+}
