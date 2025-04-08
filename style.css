@@ -24,14 +24,15 @@ position: relative;
 display: flex;
 
 }
-
-.button {
+.navg .button {
     display: grid;
     gap: 30px;
-   padding-left: 100px;
+  padding-left: 30px;
     top: 150px;
- position: absolute;
-}
+ position: fixed;
+} 
+
+
 
 nav a:hover {
 background-color: rgb(95, 94, 94);
